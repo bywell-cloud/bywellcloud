@@ -436,21 +436,21 @@ https://templatemo.com/tm-545-finance-business
           <div class="col-md-3 footer-item last-item">
             <h4>Contact Us</h4>
             <div class="contact-form">
-              <form id="contact footer-contact" action="contact.php" method="post">
+              <form id="contact footer-contact" action="fcf-assets/fcf.process.php" method="post">
                 <div class="row">
                   <div class="col-lg-12 col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                      <input name="Name" type="text" class="form-control" id="Name" placeholder="Full Name" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-12 col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="">
+                      <input name="Email" type="text" class="form-control" id="Email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
+                      <textarea name="Message" rows="6" class="form-control" id="Message" placeholder="Your Message" required=""></textarea>
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
@@ -513,6 +513,18 @@ https://templatemo.com/tm-545-finance-business
           }
       }
     </script>
+
+
+            <div id="fcf-thank-you" style="display:none">
+                <!-- Thank you message goes below -->
+                <p>Thanks for contacting us, we will get back in touch with you soon.</p>
+                <!-- Thank you message goes above -->
+            </div>
+      
+    <script src="fcf-assets/js/lang/fcf.en.js"></script>
+    <script src="fcf-assets/js/fcf.just-validate.min.js"></script>
+    <script src="fcf-assets/js/fcf.form.js"></script>
+    <!-- the lines above are needed -->
 
   </body>
 </html>
